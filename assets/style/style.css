@@ -1,1 +1,76 @@
 /* BASIC STYLES HERE */
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+
+.vending-machine-header {
+    background-color: #145561;
+    color: #c63431;
+    font-family: 'Gasoek One', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 4vw;
+}
+
+.vending-machine-container {
+    margin: 0 15vw;
+    padding: 5vh 2vw;
+    display: flex;
+    color: white;
+    background-color: #296B60;
+    border-bottom-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    box-shadow: inset 0px 0px 10px black;
+}
+
+.add-cash-btn {
+    background-color: #C4964E;
+    padding: 0.5vw;
+    border-radius: 1vw;
+    transition: all 0.25s ease;
+}
+
+.add-cash-btn:hover {
+    background-color: #f9bf61;
+    cursor: pointer;
+}
+
+.food-card {
+    margin: 4vh 1.5vw;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.801);
+    border-radius: 1vw;
+}
+
+.food-card-info {
+    display: flex;
+    justify-content: space-between;
+    background-color: #C4964E;
+    padding: 1vh 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+
+.food-card-info button {
+    border: none;
+    color: white;
+    padding: 0 .5vw;
+    background-color: #145561;
+    border-radius: 0.5vw;
+    transition: all 0.35s ease;
+}
+
+.food-card-info button:hover {
+    background-color: #29b4cd;
+}
+
+.food-img-container {
+    height: 30vh;
+    border-radius: 5vw;
+}
+
+.food-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+}
